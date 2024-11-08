@@ -1,0 +1,110 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f5fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #8e44ad, #c0392b);
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    background-color: #d1c4e9;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.header-info h1 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.header-info h2 {
+    font-size: 1.2em;
+    color: #f5c6ff;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #8e44ad;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f5c6ff;
+    padding-bottom: 5px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.card a {
+    color: #e84393;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.job, .project {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #f5c6ff;
+}
+
+.project h4, .job h4 {
+    font-weight: bold;
+    color: #8e44ad;
+}
+
+.skills ul, .certifications ul, .languages ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.header-info p, .job p, .project p {
+    font-size: 0.95em;
+    color: #555;
+}
+
+h4 {
+    color: #d35400;
+}
