@@ -1,5 +1,4 @@
-/* styles.css */
-
+/* Reinicio de márgenes y configuración básica */
 * {
     margin: 0;
     padding: 0;
@@ -7,104 +6,98 @@
     font-family: Arial, sans-serif;
 }
 
+/* Configuración general de fondo y color */
 body {
-    background-color: #f8f5fa;
+    background-color: #f9f9f9;
     color: #333;
     display: flex;
     justify-content: center;
-    padding: 20px;
-}
-
-.container {
-    max-width: 800px;
-    width: 100%;
-}
-
-.header {
-    display: flex;
     align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal centrado */
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
     padding: 20px;
-    background: linear-gradient(135deg, #8e44ad, #c0392b);
-    color: white;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.profile-photo {
-    width: 80px;
-    height: 80px;
-    background-color: #d1c4e9;
-    border-radius: 50%;
-    margin-right: 15px;
-}
-
-.header-info h1 {
-    font-size: 1.8em;
-    color: #fff;
-}
-
-.header-info h2 {
-    font-size: 1.2em;
-    color: #f5c6ff;
-}
-
-.card {
-    background-color: white;
-    padding: 20px;
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
 }
 
-.card h3 {
-    color: #8e44ad;
-    font-size: 1.5em;
+/* Estilos de encabezado */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #630af4;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.header-content .profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
     margin-bottom: 15px;
-    border-bottom: 2px solid #f5c6ff;
-    padding-bottom: 5px;
 }
 
-.card ul {
-    list-style-type: none;
-    padding-left: 0;
+h1, h2 {
+    margin: 5px 0;
 }
 
-.card ul li {
+/* Estilo de secciones */
+section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    margin-bottom: 10px;
+    color: #630af4;
+}
+
+/* Estilos de contenido específico */
+.about p, .experience div, .projects div, .contact p {
     margin-bottom: 10px;
 }
 
-.card a {
-    color: #e84393;
-    text-decoration: none;
+/* Lista estilizada */
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-.card a:hover {
-    text-decoration: underline;
+ul li {
+    margin-bottom: 5px;
 }
 
-.job, .project {
+/* Estilos de contacto */
+.contact {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
     margin-bottom: 15px;
-    padding-left: 10px;
-    border-left: 3px solid #f5c6ff;
+    padding: 15px;
 }
 
-.project h4, .job h4 {
-    font-weight: bold;
-    color: #8e44ad;
-}
-
-.skills ul, .certifications ul, .languages ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 10px;
-}
-
-.header-info p, .job p, .project p {
-    font-size: 0.95em;
-    color: #555;
-}
-
-h4 {
-    color: #d35400;
+/* Ajuste de diseño para pantallas grandes */
+@media (min-width: 600px) {
+    .main-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
 }

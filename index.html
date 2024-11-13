@@ -3,92 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum de Arango Garcia Isaac Yael</title>
+    <title>Currículum - Isaac Yael Arango Garcia</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="profile-photo">
-            <!-- Puedes agregar una imagen de perfil aquí usando una etiqueta <img> -->
+
+<!-- Contenedor Principal -->
+<div class="main-container container">
+    <div class="row">
+        <!-- Columna Izquierda -->
+        <div class="col-md-6">
+            <header class="header-content">
+                <img src="foto_Beecker.png" alt="Foto de Isaac Yael Arango Garcia" class="profile-photo">
+                <h1>Arango Garcia Isaac Yael</h1>
+                <h2>Programador Junior</h2>
+                <p>Estado de México, México</p>
+            </header>
+
+            <section class="about mt-4">
+                <h3>Acerca de Mí</h3>
+                <p>Me considero alguien con facilidad para trabajar en equipo, liderar proyectos y trabajar bajo órdenes. Respeto los tiempos y prefiero trabajar con planificación, siendo muy meticuloso con los proyectos realizados.</p>
+            </section>
+
+            <section class="contact mt-4">
+                <h3>Contacto</h3>
+                <p>Teléfono: (55) 2925 7645</p>
+                <p>Email: 2020452005@teschi.edu.mx | fxzzy54@gmail.com</p>
+                <p><a href="https://github.com/ISCYael" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/isaac-yael-arango-garcia-a290272ab/" target="_blank">LinkedIn</a></p>
+            </section>
         </div>
-        <div class="header-info">
-            <h1>Arango Garcia Isaac Yael</h1>
-            <h2>Programador Junior</h2>
-            <p>Me considero alguien con facilidad para trabajar en equipo, liderazgo y meticulosidad en proyectos.</p>
+
+        <!-- Columna Derecha -->
+        <div class="col-md-6">
+            <section class="experience">
+                <h3>Experiencia Laboral</h3>
+                <div class="card">
+                    <h5 class="card-title">Programador Freelance</h5>
+                    <p>Creación e implementación de paquetería de Java, buenas prácticas y administración de bases de datos remotas.</p>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Programador Junior en C# - CCAI TESCHI</h5>
+                    <p>Implementación de buenas prácticas, manejo de repositorios en GitHub y servidores en la nube para bases de datos.</p>
+                </div>
+            </section>
+
+            <section class="education mt-4">
+                <h3>Educación</h3>
+                <div class="card">
+                    <h5 class="card-title">Ingeniería en Sistemas Computacionales</h5>
+                    <p>Tecnológico de Estudios Superiores de Chimalhuacán, 2020-2024</p>
+                </div>
+            </section>
+
+            <section class="projects mt-4">
+                <h3>Proyectos Personales</h3>
+                <div class="card">
+                    <h5 class="card-title">Sistema de Detección de Enfermedades en Cultivos</h5>
+                    <p>Creación de un sistema en Python con OpenCV para detectar el estado de cultivos.</p>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Sistema de Detección de Señales de Auxilio</h5>
+                    <p>Sistema en Python para detectar señales de auxilio en cámaras de seguridad, con envío de alertas.</p>
+                </div>
+            </section>
+
+            <section class="certifications mt-4">
+                <h3>Certificaciones</h3>
+                <ul>
+                    <li>Diseños UX de Google (2024)</li>
+                    <li>Manejo de SSIS y SSAS (2024)</li>
+                    <li>Oracle APEX (2024)</li>
+                </ul>
+            </section>
         </div>
-    </header>
-
-    <div class="container">
-        <section class="card contact-info">
-            <h3>Contacto</h3>
-            <ul>
-                <li><strong>Teléfono:</strong> (55) 2925 7645</li>
-                <li><strong>Email:</strong> <a href="mailto:2020452005@teschi.edu.mx">2020452005@teschi.edu.mx</a></li>
-                <li><strong>Email alternativo:</strong> <a href="mailto:fxzzy54@gmail.com">fxzzy54@gmail.com</a></li>
-            </ul>
-        </section>
-
-        <section class="card about-me">
-            <h3>Acerca de mí</h3>
-            <p>Programador freelance en el Estado de México con experiencia en desarrollo de software en Java, administración de bases de datos remotas y buenas prácticas de programación.</p>
-        </section>
-
-        <section class="card experience">
-            <h3>Experiencia Laboral</h3>
-            <div class="job">
-                <h4>Programador Freelance</h4>
-                <p>Creación e implementación de paquetería en Java, administración de bases de datos remotas.</p>
-            </div>
-            <div class="job">
-                <h4>CCAI TESCHI – Programador Junior en C#</h4>
-                <p>Implementación de buenas prácticas, gestión de repositorios en GitHub, manejo de servidores en la nube.</p>
-            </div>
-        </section>
-
-        <section class="card education">
-            <h3>Educación</h3>
-            <p>Ingeniería en Sistemas Computacionales - Tecnológico de Estudios Superiores de Chimalhuacán (2020-2024)</p>
-        </section>
-
-        <section class="card skills">
-            <h3>Habilidades</h3>
-            <ul>
-                <li>Programación Orientada a Objetos</li>
-                <li>Programación Orientada a Eventos</li>
-                <li>Diseño UX con Figma</li>
-                <li>Liderazgo</li>
-                <li>Comunicación Asertiva</li>
-            </ul>
-        </section>
-
-        <section class="card projects">
-            <h3>Proyectos Personales</h3>
-            <div class="project">
-                <h4>Sistema de Detección de Enfermedades en Cultivos</h4>
-                <p>Sistema en Python utilizando OpenCV para la detección del estado de cultivos y recomendaciones.</p>
-            </div>
-            <div class="project">
-                <h4>Concurso ANUIES – Detección de Señales de Auxilio</h4>
-                <p>Sistema de detección de señales de auxilio en cámaras de seguridad usando OpenCV.</p>
-            </div>
-        </section>
-
-        <section class="card certifications">
-            <h3>Certificaciones</h3>
-            <ul>
-                <li>Diseños UX de Google (2024)</li>
-                <li>Manejo de SSIS y SSAS (2024)</li>
-                <li>ORACLE APEX (2024)</li>
-            </ul>
-        </section>
-
-        <section class="card languages">
-            <h3>Idiomas</h3>
-            <ul>
-                <li>Español: Nativo</li>
-                <li>Inglés: B1</li>
-            </ul>
-        </section>
     </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
