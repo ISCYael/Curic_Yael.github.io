@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículum - Isaac Yael Arango Garcia</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../Models/styles.css" />
+  </head>
+  <body>
+    <!-- Contenedor Principal -->
+    <div class="main-container">
+      <div class="row">
+        <!-- Columna Izquierda -->
+        <div class="col-md-6">
+          <!-- Header con perfil -->
+          <header class="header-content">
+            <img
+              src="Templates/foto_Beecker.png"
+              alt="Foto de Isaac Yael Arango Garcia"
+              class="profile-photo"
+            />
+            <h1>Arango Garcia Isaac Yael</h1>
+            <h2>Programador Junior</h2>
+            <p>Estado de México, México</p>
+          </header>
+
+          <!-- Sección Acerca de Mí -->
+          <section
+            class="about"
+            onmouseover="changeText()"
+            onmouseout="resetText()"
+          >
+            <h3>Acerca de Mí</h3>
+            <div id="aboutContent" class="about-content">
+              <p id="aboutText">
+                Me considero alguien con facilidad para trabajar en equipo,
+                liderar proyectos y trabajar bajo órdenes. Respeto los tiempos y
+                prefiero trabajar con planificación, siendo muy meticuloso con
+                los proyectos realizados.
+              </p>
+              <!-- Contenedor para las palabras clave y la imagen -->
+              <div class="keywords-image" id="keywordsImage">
+                <p class="keywords">
+                  Responsable, Comunicativo, Enfocado, Trabajo en Equipo,
+                  Dispuesto a aprender, Fan del Cruz Azul.
+                </p>
+                <img
+                  src="Templates/lobo.jpg"
+                  alt="Imagen descriptiva"
+                  class="about-image"
+                />
+              </div>
+            </div>
+          </section>
+
+          <!-- Sección Contacto -->
+          <section class="contact">
+            <h3>Contacto</h3>
+            <p>Teléfono: (55) 2925 7645</p>
+            <p>Email: 2020452005@teschi.edu.mx | fxzzy54@gmail.com</p>
+            <p>
+              <a href="https://github.com/ISCYael" target="_blank">GitHub</a> |
+              <a
+                href="https://www.linkedin.com/in/isaac-yael-arango-garcia-a290272ab/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </p>
+          </section>
+        </div>
+
+        <!-- Columna Derecha -->
+        <div class="col-md-6">
+          <!-- Experiencia Laboral -->
+          <section class="experience">
+            <h3>Experiencia Laboral</h3>
+            <div class="card project-card" onmouseover="showSkills()" onmouseout="hideSkills()">
+              <h5 class="card-title">Programador Freelance</h5>
+              <p id="projectDescription">
+                  Creación e implementación de paquetería de Java, buenas prácticas y administración de bases de datos remotas.
+              </p>
+          
+              <!-- Contenedor para los lenguajes y logos -->
+              <div id="skillsInfo" class="skills-info">
+                  <p class="extra-text">Lenguajes:</p>
+                  <div class="skills-icons">
+                      <div>
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo" class="skill-logo">
+                          <span>Python (Semi)</span>
+                      </div>
+                      <div>
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo" class="skill-logo">
+                          <span>Java (Semi)</span>
+                      </div>
+                      <div>
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C# Logo" class="skill-logo">
+                          <span>C# (Jr)</span>
+                      </div>
+                      <div>
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP Logo" class="skill-logo">
+                          <span>PHP (Jr)</span>
+                      </div>
+                      <div>
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle Apex Logo" class="skill-logo">
+                          <span>Oracle Apex (Jr)</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="card project-card" onmouseover="showSkills2()" onmouseout="hideSkills2()">
+            <h5 class="card-title">Programador Junior en C# - CCAI TESCHI</h5>
+            <p id="projectDescription2">
+                Implementación de buenas prácticas, manejo de repositorios en GitHub y servidores en la nube para bases de datos.
+            </p>
+        
+            <!-- Contenedor para habilidades y logos -->
+            <div id="skillsInfo2" class="skills-info">
+                <p class="extra-text">Habilidades:</p>
+                <div class="skills-icons">
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo" class="skill-logo">
+                        <span>GitHub</span>
+                    </div>
+                    <div>
+                        <img src="https://www.iconfinder.com/icons/6929234/google_logo_icon" alt="APIs" class="skill-logo">
+                        <span>Manejo de APIs</span>
+                    </div>
+                    <div>
+                        <img src="https://www.creativefabrica.com/wp-content/uploads/2021/03/03/Modern-Initial-UX-letter-logo-design-Graphics-9132683-1.jpg" alt="Diseño UX" class="skill-logo">
+                        <span>Diseño UX</span>
+                    </div>
+                    <div>
+                        <img src="https://www.cleanpng.com/png-quality-assurance-qa-apprenticeships-slough-traini-1957958" alt="QA Logo" class="skill-logo">
+                        <span>Capacitación en QA y Tester</span>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNb4Jprrb2hhBRph3hEOsvagL9Vel0KoImMw&s" alt="Inglés B1" class="skill-logo">
+                        <span>Inglés B1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          </section>
+
+          <!-- Educación -->
+          <section class="education">
+            <h3>Educación</h3>
+            <div class="card">
+              <h5 class="card-title">Ingeniería en Sistemas Computacionales</h5>
+              <p>
+                Tecnológico de Estudios Superiores de Chimalhuacán, 2020-2024
+              </p>
+            </div>
+          </section>
+
+          <!-- Proyectos Personales -->
+          <section class="projects">
+            <h3>Proyectos Personales</h3>
+            <div
+              class="card project-card"
+              onmouseover="showCultivaInfo()"
+              onmouseout="hideCultivaInfo()"
+            >
+              <h5 class="card-title">
+                Sistema de Detección de Enfermedades en Cultivos
+              </h5>
+              <p id="projectDescription">
+                Creación de un sistema en Python con OpenCV para detectar el
+                estado de cultivos.
+              </p>
+
+              <!-- Contenedor para el texto adicional y el logo -->
+              <div id="cultivaInfo" class="cultiva-info">
+                <p class="extra-text">
+                  CultIvA es un software enfocado en garantizar la salud del cultivo y brinda información del estado y el cuidado del Cultivo Apoyado por Inteligencia Artificial.
+                </p>
+                <img
+                  src="Templates/logo_sin_fondo.png"
+                  alt="Logo de CultIvA"
+                  class="logo-image"
+                />
+              </div>
+            </div>
+
+            <div class="card">
+              <h5 class="card-title">
+                Sistema de Detección de Señales de Auxilio
+              </h5>
+              <p>
+                Sistema en Python para detectar señales de auxilio en cámaras de
+                seguridad, con envío de alertas.
+              </p>
+            </div>
+            <div class="card">
+              <h5 class="card-title">
+                Finalista de Pro-Cibers 2024- Santander
+              </h5>
+              <p>
+                Convocatoria a 
+              </p>
+            </div>
+          </section>
+
+          <!-- Certificaciones -->
+          <section class="certifications">
+            <h3>Certificaciones</h3>
+            <ul>
+              <li>Diseños UX de Google (2024)</li>
+              <li>Manejo de SSIS y SSAS (2024)</li>
+              <li>Oracle APEX (2024)</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts necesarios para Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      const originalText =
+        "Me considero alguien con facilidad para trabajar en equipo, liderar proyectos y trabajar bajo órdenes. Respeto los tiempos y prefiero trabajar con planificación, siendo muy meticuloso con los proyectos realizados.";
+
+      function changeText() {
+        // Cambia el texto a palabras clave y muestra el contenedor de imagen
+        document.getElementById("aboutText").style.display = "none";
+        document.getElementById("keywordsImage").style.display = "flex";
+      }
+
+      function resetText() {
+        // Restaura el texto original y oculta el contenedor de imagen
+        document.getElementById("aboutText").style.display = "block";
+        document.getElementById("keywordsImage").style.display = "none";
+      }
+    </script>
+    <script>
+      // Guardamos el texto original
+      const originalText1 =
+        "Creación de un sistema en Python con OpenCV para detectar el estado de cultivos.";
+
+      function showCultivaInfo() {
+        // Ocultamos el texto original y mostramos el contenido adicional
+        document.getElementById("projectDescription").style.display = "none";
+        document.getElementById("cultivaInfo").style.display = "block";
+      }
+
+      function hideCultivaInfo() {
+        // Mostramos el texto original y ocultamos el contenido adicional
+        document.getElementById("projectDescription").style.display = "block";
+        document.getElementById("cultivaInfo").style.display = "none";
+      }
+    </script>
+    <script>
+      function showSkills() {
+          document.getElementById("projectDescription").style.display = "none";
+          document.getElementById("skillsInfo").style.display = "block";
+      }
+  
+      function hideSkills() {
+          document.getElementById("projectDescription").style.display = "block";
+          document.getElementById("skillsInfo").style.display = "none";
+      }
+  </script>
+  <script>
+    function showSkills2() {
+        document.getElementById("projectDescription2").style.display = "none";
+        document.getElementById("skillsInfo2").style.display = "block";
+    }
+
+    function hideSkills2() {
+        document.getElementById("projectDescription2").style.display = "block";
+        document.getElementById("skillsInfo2").style.display = "none";
+    }
+</script>
+
+  </body>
+</html>

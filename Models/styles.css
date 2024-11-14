@@ -101,3 +101,98 @@ ul li {
         justify-content: space-between;
     }
 }
+/* Estilo para la tarjeta del proyecto */
+.project-card {
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+}
+
+/* Ocultamos inicialmente el contenedor adicional */
+.cultiva-info {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilo del texto adicional en verde */
+.extra-text {
+    color: #228B22; /* Verde */
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Estilo para la imagen del logo */
+.logo-image {
+    width: 50px;
+    height: auto;
+    margin-top: 5px;
+}
+/* Ocultamos inicialmente el contenido de habilidades */
+.skills-info {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilo para el texto adicional */
+.extra-text {
+    color: #228B22; /* Verde oscuro */
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+/* Contenedor de los íconos de habilidades */
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Estilos para cada logo */
+.skill-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+/* Mostrar contenido adicional al pasar el mouse */
+.project-card:hover #skillsInfo {
+    display: block;
+}
+/* Estilos para ocultar inicialmente el contenido de habilidades */
+.skills-info {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilos para el texto adicional */
+.extra-text {
+    color: #228B22; /* Verde oscuro */
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+/* Contenedor de los íconos de habilidades */
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Estilos para cada logo */
+.skill-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+/* Mostrar contenido adicional al pasar el mouse */
+.project-card:hover .skills-info {
+    display: block;
+}
