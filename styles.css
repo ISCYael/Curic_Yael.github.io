@@ -196,3 +196,97 @@ ul li {
 .project-card:hover .skills-info {
     display: block;
 }
+/* Estilo para el contenedor adicional */
+.additional-info {
+    display: none;
+    color: #2E8B57; /* Color verde para el texto */
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Estilo de la imagen adicional */
+.additional-image {
+    width: 80px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Mostrar la información adicional al pasar el mouse */
+.project-card:hover #additionalInfo {
+    display: block;
+}
+
+.project-card:hover #projectDescription {
+    display: none; /* Ocultar la descripción original al pasar el mouse */
+}
+/* Estilo para la información adicional (oculta por defecto) */
+.additional-info {
+    display: none;
+    color: #8019a8;
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Imagen adicional */
+.additional-info .extra-image {
+    width: 80px;
+    margin-top: 10px;
+}
+
+/* Mostrar información adicional cuando se pasa el mouse */
+.project-card:hover #proCibersDescription {
+    display: none;
+}
+
+.project-card:hover #additionalProCibersInfo {
+    display: block;
+}
+/* Estilo para la información adicional (oculta por defecto) */
+.additional-info {
+    display: none;
+    color: #9b1c8a;
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Imagen adicional */
+.additional-info .extra-image {
+    width: 80px;
+    margin-top: 10px;
+}
+
+/* Mostrar información adicional cuando se pasa el mouse */
+.education-card:hover #educationDescription {
+    display: none;
+}
+
+.education-card:hover #additionalEducationInfo {
+    display: block;
+}
+/* Estilo para la información adicional (oculta por defecto) */
+.additional-info {
+    display: none;
+    color: #444;
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Imagen adicional */
+.additional-info .extra-image {
+    width: 80px;
+    margin-top: 10px;
+}
+
+/* Mostrar información adicional cuando se pasa el mouse */
+.education-card:hover #educationDescription {
+    display: none;
+}
+
+.education-card:hover #additionalEducationInfo {
+    display: block;
+}

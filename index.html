@@ -49,7 +49,7 @@
                   Dispuesto a aprender, Fan del Cruz Azul.
                 </p>
                 <img
-                  src="lobo.jpg"
+                  src="nose.jpg"
                   alt="Imagen descriptiva"
                   class="about-image"
                 />
@@ -120,30 +120,31 @@
         
             <!-- Contenedor para habilidades y logos -->
             <div id="skillsInfo2" class="skills-info">
-                <p class="extra-text">Habilidades:</p>
-                <div class="skills-icons">
-                    <div>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo" class="skill-logo">
-                        <span>GitHub</span>
-                    </div>
-                    <div>
-                        <img src="https://www.iconfinder.com/icons/6929234/google_logo_icon" alt="APIs" class="skill-logo">
-                        <span>Manejo de APIs</span>
-                    </div>
-                    <div>
-                        <img src="https://www.creativefabrica.com/wp-content/uploads/2021/03/03/Modern-Initial-UX-letter-logo-design-Graphics-9132683-1.jpg" alt="Diseño UX" class="skill-logo">
-                        <span>Diseño UX</span>
-                    </div>
-                    <div>
-                        <img src="https://www.cleanpng.com/png-quality-assurance-qa-apprenticeships-slough-traini-1957958" alt="QA Logo" class="skill-logo">
-                        <span>Capacitación en QA y Tester</span>
-                    </div>
-                    <div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNb4Jprrb2hhBRph3hEOsvagL9Vel0KoImMw&s" alt="Inglés B1" class="skill-logo">
-                        <span>Inglés B1</span>
-                    </div>
-                </div>
-            </div>
+              <p class="extra-text">Habilidades:</p>
+              <div class="skills-icons">
+                  <div>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo" class="skill-logo">
+                      <span>GitHub</span>
+                  </div>
+                  <div>
+                      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111772.png" alt="APIs" class="skill-logo">
+                      <span>Manejo de APIs</span>
+                  </div>
+                  <div>
+                      <img src="https://cdn-icons-png.flaticon.com/512/2641/2641573.png" alt="Diseño UX" class="skill-logo">
+                      <span>Diseño UX</span>
+                  </div>
+                  <div>
+                      <img src="https://cdn-icons-png.flaticon.com/512/3891/3891903.png" alt="QA Logo" class="skill-logo">
+                      <span>Capacitación en QA y Tester</span>
+                  </div>
+                  <div>
+                      <img src="https://cdn-icons-png.flaticon.com/512/330/330459.png" alt="Inglés B1" class="skill-logo">
+                      <span>Inglés B1</span>
+                  </div>
+              </div>
+          </div>
+          
         </div>
         
           </section>
@@ -151,13 +152,20 @@
           <!-- Educación -->
           <section class="education">
             <h3>Educación</h3>
-            <div class="card">
-              <h5 class="card-title">Ingeniería en Sistemas Computacionales</h5>
-              <p>
-                Tecnológico de Estudios Superiores de Chimalhuacán, 2020-2024
-              </p>
+            <div class="card education-card" onmouseover="showEducationInfo()" onmouseout="hideEducationInfo()">
+                <h5 class="card-title">Ingeniería en Sistemas Computacionales</h5>
+                <p id="educationDescription">
+                    Tecnológico de Estudios Superiores de Chimalhuacán, 2020-2024
+                </p>
+        
+                <!-- Contenedor para la información adicional -->
+                <div id="additionalEducationInfo" class="additional-info">
+                    <p>Ingeniería en Sistemas Computacionales, egresado de prepa como técnico en informática, dispuesto a todo y sin miedo a nada.</p>
+                    <img src="images.jpg" alt="Icono de Graduación" class="extra-image">
+                </div>
             </div>
-          </section>
+        </section>
+        
 
           <!-- Proyectos Personales -->
           <section class="projects">
@@ -188,23 +196,33 @@
               </div>
             </div>
 
-            <div class="card">
-              <h5 class="card-title">
-                Sistema de Detección de Señales de Auxilio
-              </h5>
-              <p>
-                Sistema en Python para detectar señales de auxilio en cámaras de
-                seguridad, con envío de alertas.
+            <div class="card project-card" onmouseover="showProjectInfo()" onmouseout="hideProjectInfo()">
+              <h5 class="card-title">Sistema de Detección de Señales de Auxilio</h5>
+              <p id="projectDescription">
+                  Sistema en Python para detectar señales de auxilio en cámaras de seguridad, con envío de alertas.
               </p>
+          
+              <!-- Contenedor para la información adicional -->
+              <div id="additionalInfo" class="additional-info">
+                  <img src="opencv.jpg" alt="Logo del Sistema de Detección" class="additional-image">
+                  <p>Sistema creado en Python con OpenCV y manejo de Inteligencia Artificial para detectar la señal de auxilio en zonas de riesgo.</p>
+              </div>
+          </div>
+          
+          
+          <div class="card project-card" onmouseover="showProCibersInfo()" onmouseout="hideProCibersInfo()">
+            <h5 class="card-title">Finalista de Pro-Cibers 2024 - Santander</h5>
+            <p id="proCibersDescription">
+                Convocatoria a Beca de Conocimiento sobre Ciberseguridad
+            </p>
+        
+            <!-- Contenedor para la información adicional -->
+            <div id="additionalProCibersInfo" class="additional-info">
+                <p>Beca enfocada a jóvenes culminando su preparación para ser la próxima generación de seguridad en México y, si es posible, a nivel internacional.</p>
+                <img src="seguridad.png" alt="Ciberseguridad Logo" class="extra-image">
             </div>
-            <div class="card">
-              <h5 class="card-title">
-                Finalista de Pro-Cibers 2024- Santander
-              </h5>
-              <p>
-                Convocatoria a 
-              </p>
-            </div>
+        </div>
+        
           </section>
 
           <!-- Certificaciones -->
@@ -278,6 +296,44 @@
         document.getElementById("projectDescription2").style.display = "block";
         document.getElementById("skillsInfo2").style.display = "none";
     }
+</script>
+
+
+<script>
+  function showProjectInfo() {
+    document.getElementById("projectDescription").style.display = "none";
+    document.getElementById("additionalInfo").style.display = "block";
+}
+
+function hideProjectInfo() {
+    document.getElementById("projectDescription").style.display = "block";
+    document.getElementById("additionalInfo").style.display = "none";
+}
+</script>
+
+<script>
+  function showProCibersInfo() {
+    document.getElementById("proCibersDescription").style.display = "none";
+    document.getElementById("additionalProCibersInfo").style.display = "block";
+}
+
+function hideProCibersInfo() {
+    document.getElementById("proCibersDescription").style.display = "block";
+    document.getElementById("additionalProCibersInfo").style.display = "none";
+}
+</script>
+
+<script>
+  function showEducationInfo() {
+    document.getElementById("educationDescription").style.display = "none";
+    document.getElementById("additionalEducationInfo").style.display = "block";
+}
+
+function hideEducationInfo() {
+    document.getElementById("educationDescription").style.display = "block";
+    document.getElementById("additionalEducationInfo").style.display = "none";
+}
+
 </script>
 
   </body>
